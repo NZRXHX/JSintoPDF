@@ -19,6 +19,7 @@ pip install -r requirements.txt
 ```
 ##### 2. Prepare Files
 Create or choose an input PDF file (e.g. input.pdf)
+
 Create a JavaScript file (e.g. script.js) containing code like:
 ```javascript
 app.alert("your alert");
