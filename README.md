@@ -18,14 +18,12 @@ Ensure Python 3.8+ is installed, then run:
 pip install -r requirements.txt
 ```
 ##### 2. Prepare Files
-
-    Create or choose an input PDF file (e.g. input.pdf)
-
-    Create a JavaScript file (e.g. script.js) containing code like:
-
+Create or choose an input PDF file (e.g. input.pdf)
+Create a JavaScript file (e.g. script.js) containing code like:
+```python
 app.alert("your alert");
 app.launchURL("https://example.com", true);
-
+```
 ##### 3. Run Script
 
 python embed_js.py input.pdf script.js output.pdf
