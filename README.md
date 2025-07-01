@@ -2,13 +2,10 @@
 ---
 #### Features
 
-    Embeds arbitrary JavaScript into any PDF file
-
-    Executes the script on PDF open (supports app.alert, app.launchURL, etc.)
-
-    Simple usage via command line
-
-    Built with Python and PyPDF2
+- Embeds arbitrary JavaScript into any PDF file
+- Executes the script on PDF open (supports app.alert, app.launchURL, etc.)
+- Simple usage via command line
+- Built with Python and PyPDF2
 
 #### Usage
 ##### 1. Install Dependencies
