@@ -32,9 +32,9 @@ python embed_js.py input.pdf script.js output.pdf
 After running, output.pdf will contain JavaScript that runs when opened in a compatible viewer (e.g., Adobe Acrobat).
 Compatibility Notes
 
-    Most JavaScript code only runs in Adobe Acrobat Reader. Browsers don't support link redirect and lightweight viewers (like Evince or Preview) often ignore JS.
+Most JavaScript code effectively runs in Adobe Acrobat Reader. Browsers don't support link redirect and lightweight viewers (like Evince or Preview) often ignore JS.
 
-    Only the first executable line may trigger in some environments. For best results, combine statements into one line or test on Acrobat.
+Only the first executable line may trigger in some environments. For best results, combine statements into one line or test on Acrobat.
 
 ##### Example
 ```bash
